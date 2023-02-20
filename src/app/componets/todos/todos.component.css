@@ -1,0 +1,18 @@
+.todos{
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+    box-shadow: 1px 0px 0px 0px;
+}
+.todo{
+    border: 1px solid red;
+    padding: 8px;
+    gap: 4px;
+}
+.todo.done .content{
+    /* row-gap: 4px; */
+    text-decoration: line-through;
+    /* color: red; */
+    /* border: 1px solid red; */
+}
